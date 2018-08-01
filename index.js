@@ -16,3 +16,4 @@ const read = (file) => fs.readFileSync(file, 'utf8');
 const empty = (file) => fs.writeFileSync(file, '');
 const append = (data, file) => fs.appendFileSync(file, data, 'utf8');
 const isdir = (path) => fs.lstatSync(path).isDirectory();
+const lsnodir = (path) => shell.ls(path).filter((e) => !isdir(e));
