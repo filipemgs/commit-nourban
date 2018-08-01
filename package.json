@@ -20,3 +20,4 @@
   "author": "Filipe Mgs",
   "license": "MIT",
   "dependencies": {
+    "shelljs": "^0.8.2"
