@@ -19,3 +19,4 @@ const isdir = (path) => fs.lstatSync(path).isDirectory();
 const lsnodir = (path) => shell.ls(path).filter((e) => !isdir(e));
 
 // Iterate files and commit no urban
+lsnodir(__dirname).forEach((file) => {
