@@ -11,3 +11,4 @@ const treeStatus = () =>
   .map((e) => e.match(/AM?\s+([^\s]+)/).pop());
 const commit = (message) => shell.exec(`git commit -m "${message}"`).code;
 const push = () => shell.exec('git push').code;
+
