@@ -22,3 +22,4 @@ const lsnodir = (path) => shell.ls(path).filter((e) => !isdir(e));
 lsnodir(__dirname).forEach((file) => {
   const cache = read(file);
   empty(file);
+  cache.split(/\r?\n/).forEach((line, i) => {
