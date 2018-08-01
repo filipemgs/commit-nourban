@@ -12,3 +12,4 @@ const treeStatus = () =>
 const commit = (message) => shell.exec(`git commit -m "${message}"`).code;
 const push = () => shell.exec('git push').code;
 
+const read = (file) => fs.readFileSync(file, 'utf8');
