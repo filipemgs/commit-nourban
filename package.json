@@ -5,3 +5,4 @@
   "bin": "index.js",
   "scripts": {
     "nourban": "node index.js",
+    "test": "echo \"No tests required to commit no urban\" && exit 1"
