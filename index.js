@@ -7,3 +7,4 @@ const treeStatus = () =>
   shell.exec('git status --short')
   .stdout
   .trim()
+  .split('\n')
