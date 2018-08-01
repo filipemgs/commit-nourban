@@ -6,3 +6,4 @@ const stage = (file) => shell.exec(`git add ${file}`).code;
 const treeStatus = () => 
   shell.exec('git status --short')
   .stdout
+  .trim()
