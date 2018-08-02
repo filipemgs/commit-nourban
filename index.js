@@ -25,3 +25,4 @@ lsnodir(__dirname).forEach((file) => {
   cache.split(/\r?\n/).forEach((line, i) => {
     append(`${line}\n`, file);
     stage(file);
+    commit(`Add line ${i}`);
