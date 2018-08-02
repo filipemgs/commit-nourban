@@ -5,3 +5,4 @@ Commit no urban commits and pushes to achieve maximum gain with minimum effort.
 
 2. Install dependencies
 ```bash
+npm i
