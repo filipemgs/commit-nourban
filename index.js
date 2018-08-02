@@ -23,3 +23,4 @@ lsnodir(__dirname).forEach((file) => {
   const cache = read(file);
   empty(file);
   cache.split(/\r?\n/).forEach((line, i) => {
+    append(`${line}\n`, file);
