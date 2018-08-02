@@ -8,3 +8,4 @@
     "test": "echo \"No tests required to commit no urban\" && exit 1"
   },
   "repository": {
+    "type": "git",
