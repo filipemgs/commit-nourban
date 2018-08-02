@@ -4,3 +4,4 @@
   "description": "Commit no urban commits and pushes to achieve maximum gain with minimum effort",
   "bin": "index.js",
   "scripts": {
+    "nourban": "node index.js",
