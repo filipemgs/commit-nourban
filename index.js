@@ -26,3 +26,4 @@ lsnodir(__dirname).forEach((file) => {
     append(`${line}\n`, file);
     stage(file);
     commit(`Add line ${i}`);
+  });
