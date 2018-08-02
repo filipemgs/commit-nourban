@@ -8,3 +8,4 @@ const treeStatus = () =>
   .stdout
   .trim()
   .split('\n')
+  .map((e) => e.match(/AM?\s+([^\s]+)/).pop());
